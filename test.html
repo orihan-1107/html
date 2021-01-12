@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ALL-IT </title>
+    <style>
+        a {
+            color : black;
+            font-weight: bold;
+            font-size: 15px;
+            font-family: "Trebuchet MS", Dotum, Arial;
+        }
+        .box {
+            width : 30%;
+            height: 20%;
+            margin-top: 2%;
+            margin-left: 35%;
+            /*border: solid 2px red;*/
+        }
+        .menu {
+            width : 80%;
+            height : 60px;
+            margin-left: 10.7%;
+            /*border: 2px solid blue;*/
+        }
+        .menu ul li {
+            list-style: none;
+            color : white;
+            background-color: black;   
+            float: left;
+            line-height: 40px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .menu ul li a {
+            color : white;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: "Trebuchet MS", Dotum, Arial;
+        }
+        .menulink {
+            text-decoration: none;
+            text-decoration-line: none;
+            display: block;
+            width: 230px;
+            font-size: 20px;
+        }
+        .menu ul li:hover {
+            color :black;
+            background-color: gray;
+        }
+        .maint {
+            width: 74%;
+            height: 400px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .maint ul li {
+            display: block;
+            width : 280px;
+            border : 1px solid balck;
+            padding : 7px;
+            margin-right : auto;
+            font-size: 15px;
+            text-decoration-color: black;
+            /*border : 1px solid black;*/
+        }
+        .maint ul li a{
+            text-decoration: none;
+        }
+        .maint ul li:hover {
+            color : white;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" class="box">
+    </header>
+    <hr>
+    <nav class="menu">
+        <ul>
+            <li><a class="menulink" href="#">공지</a></li>
+            <li>|</li>
+            <li><a class="menulink" href="#">자유게시판</a></li>
+            <li>|</li>
+            <li><a class="menulink" href="#">과제</a></li>
+            <li>|</li>
+            <li><a class="menulink"  href="#">강의평가</a></li>
+            <li>|</li>
+            <li><a class="menulink" href="#">출석체크</a></li>
+        </ul>
+    </nav>
+    <section>
+        <table class="maint">
+            <tr>
+                <td>
+                    공지
+                    <hr>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </td>
+                <td>
+                    자유게시판
+                    <hr>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </td>
+                <td>
+                    강의평가
+                    <hr>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    인기게시글
+                    <hr>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </td>
+                <td>
+                    과제글
+                    <hr>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </td>
+                <td>
+                    출석체크
+                    <hr>
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>   
+</body>
+</html>
